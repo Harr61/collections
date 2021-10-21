@@ -9,14 +9,19 @@ public class List {
     public static void main(String[] args) {
 
         java.util.List<String> nome = new ArrayList<>();
-
         nome.add("Marcia");
         nome.add("Gabriel");
         nome.add("Pedro");
         nome.add("joão");
         nome.add("Ana");
-
         System.out.println(nome);
+
+//        Juntando duas list
+        java.util.List<String> me = new ArrayList<>(nome);
+        me.add("Ismael");
+        System.out.println(me);
+
+
 
 //        ordena os nomes
         Collections.sort(nome);
