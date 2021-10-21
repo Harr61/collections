@@ -47,5 +47,8 @@ public class LinkedList {
 
         System.out.println(filaBanco.isEmpty());
 
+        filaBanco.add("Wesley");
+        System.out.println(filaBanco);
+
     }
 }
